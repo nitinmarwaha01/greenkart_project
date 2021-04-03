@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39123" started-at="2021-04-03T18:17:54 IST" finished-at="2021-04-03T18:18:33 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39123" started-at="2021-04-03T18:17:54 IST" finished-at="2021-04-03T18:18:33 IST">
+      <class name="testCases.CreateAccount">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.CreateAccount@3e57cd70]" name="setUpSuite" is-config="true" duration-ms="2221" started-at="2021-04-03T18:17:51 IST" finished-at="2021-04-03T18:17:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@3e57cd70]" name="initializeApplication" is-config="true" duration-ms="16435" started-at="2021-04-03T18:17:54 IST" finished-at="2021-04-03T18:18:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method status="PASS" signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@3e57cd70]" name="addAccount" duration-ms="20546" started-at="2021-04-03T18:18:10 IST" data-provider="Data" finished-at="2021-04-03T18:18:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_Name=Nitin, Address_Line1=House No 120, Post_Code=12345, Last_Name=Gupta, DOB=28/12/1991, State=New York, Alias=My Home Address, City=New York, Mobile=123456789, Password=Super@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccount -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@3e57cd70]" name="tearDown" is-config="true" duration-ms="2044" started-at="2021-04-03T18:18:31 IST" finished-at="2021-04-03T18:18:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAccount status=SUCCESS method=CreateAccount.addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@3e57cd70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CreateAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
