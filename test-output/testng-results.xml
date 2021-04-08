@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33281" started-at="2021-04-09T00:42:42 IST" finished-at="2021-04-09T00:43:15 IST">
+  <suite name="Default suite" duration-ms="44735" started-at="2021-04-09T01:17:08 IST" finished-at="2021-04-09T01:17:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33281" started-at="2021-04-09T00:42:42 IST" finished-at="2021-04-09T00:43:15 IST">
+    <test name="Default test" duration-ms="44735" started-at="2021-04-09T01:17:08 IST" finished-at="2021-04-09T01:17:52 IST">
       <class name="testCases.CreateAccount">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.CreateAccount@11438d26]" name="setUpSuite" is-config="true" duration-ms="2645" started-at="2021-04-09T00:42:39 IST" finished-at="2021-04-09T00:42:42 IST">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.CreateAccount@11438d26]" name="setUpSuite" is-config="true" duration-ms="2729" started-at="2021-04-09T01:17:05 IST" finished-at="2021-04-09T01:17:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@11438d26]" name="initializeApplication" is-config="true" duration-ms="13523" started-at="2021-04-09T00:42:42 IST" finished-at="2021-04-09T00:42:55 IST">
+        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@11438d26]" name="initializeApplication" is-config="true" duration-ms="24727" started-at="2021-04-09T01:17:08 IST" finished-at="2021-04-09T01:17:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeApplication -->
-        <test-method status="PASS" signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@11438d26]" name="addAccount" duration-ms="17363" started-at="2021-04-09T00:42:55 IST" data-provider="Data" finished-at="2021-04-09T00:43:13 IST">
+        <test-method status="PASS" signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@11438d26]" name="addAccount" duration-ms="17417" started-at="2021-04-09T01:17:32 IST" data-provider="Data" finished-at="2021-04-09T01:17:50 IST">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAccount -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@11438d26]" name="tearDown" is-config="true" duration-ms="2291" started-at="2021-04-09T00:43:13 IST" finished-at="2021-04-09T00:43:15 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@11438d26]" name="tearDown" is-config="true" duration-ms="2480" started-at="2021-04-09T01:17:50 IST" finished-at="2021-04-09T01:17:52 IST">
           <params>
             <param index="0">
               <value>

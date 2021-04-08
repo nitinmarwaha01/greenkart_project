@@ -56,6 +56,7 @@ public class RegisterationPage extends BaseClass {
 			}
 			String email = oMap.get("First_Name") + "." + oMap.get("Last_Name")
 			+ common.generateRandomNumbers() + "@abc.com";
+			//common.sendKeysUsingJavascript(driver, "email_create", email);
 			loginPage.txtEmailAddressForCreateAccount().sendKeys(email);
 				log.debug("user entered the email - " + email + ".");
 				oReport.reporter("User entered email - " + email, "INFO", false);
