@@ -39,6 +39,7 @@ public class RegisterationPage extends BaseClass {
 				oReport.reporter("Failed to login into application", "FAIL", true);
 			}
 			
+			common.highlightWebElement(driver, homePage.btnSignIn());
 			homePage.btnSignIn().click();
 				log.debug("User clicked on Sign In button.");
 				oReport.reporter("Click on Sign In Button", "INFO", false);
@@ -58,6 +59,7 @@ public class RegisterationPage extends BaseClass {
 			loginPage.txtEmailAddressForCreateAccount().sendKeys(email);
 				log.debug("user entered the email - " + email + ".");
 				oReport.reporter("User entered email - " + email, "INFO", false);
+			common.highlightWebElement(driver, loginPage.btnCreateAnAccount());
 			loginPage.btnCreateAnAccount().click();
 				log.debug("User clicked on Create An Account button.");
 				oReport.reporter("User clicked on Create An Account button.", "INFO", true);
@@ -74,38 +76,49 @@ public class RegisterationPage extends BaseClass {
 			registerationPage.selectTitle("Mr");
 				log.debug("Title is selected as - Mr.");
 				oReport.reporter("Title is selected as - Mr.", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtFirstName());
 			registerationPage.txtFirstName().sendKeys(oMap.get("First_Name"));
 				log.debug("User entered First Name - " + oMap.get("First_Name") + ".");
 				oReport.reporter("User entered First Name - " + oMap.get("First_Name") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtLastName());
 			registerationPage.txtLastName().sendKeys(oMap.get("Last_Name"));
 				log.debug("User entered Last Name - " + oMap.get("Last_Name") + ".");
 				oReport.reporter("User entered Last Name - " + oMap.get("Last_Name") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtPassword());
 			registerationPage.txtPassword().sendKeys(oMap.get("Password"));
 				log.debug("User entered password - " + oMap.get("Password") + ".");
 				oReport.reporter("User entered password - " + oMap.get("Password") + ".", "INFO", false);
 			registerationPage.setDateOfBirth(oMap.get("DOB"));
 				log.debug("User entered Date of Birth - " + oMap.get("DOB"));
 				oReport.reporter("User entered Date of Birth - " + oMap.get("DOB") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtAddressLine1());
 			registerationPage.txtAddressLine1().sendKeys(oMap.get("Address_Line1"));
 				log.debug("User entered Address Line1 - " + oMap.get("Address_Line1") + ".");
 				oReport.reporter("User entered Address Line1 - " + oMap.get("Address_Line1") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtCity());
 			registerationPage.txtCity().sendKeys(oMap.get("City"));
 				log.debug("User entered City - " + oMap.get("City") + ".");
 				oReport.reporter("User entered City - " + oMap.get("City") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtState());
 			common.selectVisibleTextInDropdown(registerationPage.txtState(), oMap.get("State"));
 				log.debug("User selected State - " + oMap.get("State") + ".");
 				oReport.reporter("User selected State - " + oMap.get("State") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtPostCode());
 			registerationPage.txtPostCode().sendKeys(oMap.get("Post_Code"));
 				log.debug("User selected ZipCode - " + oMap.get("Post_Code") + ".");
 				oReport.reporter("User selected ZipCode - " + oMap.get("Post_Code") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtMobilePhone());
 			registerationPage.txtAddressAlias().clear();
 			registerationPage.txtMobilePhone().sendKeys(oMap.get("Mobile"));
 				log.debug("User entered mobile No - " + oMap.get("Mobile") + ".");
 				oReport.reporter("User entered mobile No - " + oMap.get("Mobile") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.txtAddressAlias());
 			registerationPage.txtAddressAlias().sendKeys(oMap.get("Alias"));
 				log.debug("User entered alias - " + oMap.get("Alias") + ".");
 				oReport.reporter("User entered alias - " + oMap.get("Alias") + ".", "INFO", false);
+			common.highlightWebElement(driver, registerationPage.btnRegister());
 			registerationPage.btnRegister().click();
+			common.highlightWebElement(driver, registerationPage.txtAccountCreated());
 			wait.until(ExpectedConditions.visibilityOf(registerationPage.txtAccountCreated()));
 			if(registerationPage.txtAccountCreated().isDisplayed()) {
 				log.info("Account created successfully - " + email + ".");

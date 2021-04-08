@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -56,4 +57,9 @@ public class CommonFunctions extends BaseClass{
 		log.info("Text " + textToSelect + " is selected in dropdown.");
 	}
 
+	public void highlightWebElement(WebDriver driver, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		//js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
+		js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid black;');", element);
+	}
 }
