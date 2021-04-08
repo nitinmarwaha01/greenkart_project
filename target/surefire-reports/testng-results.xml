@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-08T23:28:49 IST" name="Suite" finished-at="2021-04-08T23:30:39 IST" duration-ms="110163">
+    <groups>
+    </groups>
+    <test started-at="2021-04-08T23:28:49 IST" name="Test" finished-at="2021-04-08T23:30:39 IST" duration-ms="110163">
+      <class name="testCases.CreateAccount">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:28:44 IST" name="setUpSuite" finished-at="2021-04-08T23:28:49 IST" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:28:49 IST" name="initializeApplication" finished-at="2021-04-08T23:29:02 IST" duration-ms="12493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:02 IST" name="addAccount" data-provider="Data" finished-at="2021-04-08T23:29:17 IST" duration-ms="15910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_Name=Nitin, Address_Line1=House No 120, Post_Code=12345, Last_Name=Gupta, DOB=28/12/1991, State=New York, Alias=My Home Address, City=New York, Mobile=123456789, Password=Super@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:17 IST" name="tearDown" finished-at="2021-04-08T23:29:20 IST" duration-ms="2756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAccount status=SUCCESS method=CreateAccount.addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:20 IST" name="initializeApplication" finished-at="2021-04-08T23:29:32 IST" duration-ms="12046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:32 IST" name="addAccount" data-provider="Data" finished-at="2021-04-08T23:29:47 IST" duration-ms="15261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_Name=Abhishek, Address_Line1=House No 120, Post_Code=12345, Last_Name=Sharma, DOB=28/12/1991, State=New York, Alias=My Home Address, City=New York, Mobile=123456789, Password=Super@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:47 IST" name="tearDown" finished-at="2021-04-08T23:29:49 IST" duration-ms="1193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAccount status=SUCCESS method=CreateAccount.addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:49 IST" name="initializeApplication" finished-at="2021-04-08T23:29:59 IST" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:29:59 IST" name="addAccount" data-provider="Data" finished-at="2021-04-08T23:30:13 IST" duration-ms="14378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_Name=Sahil, Address_Line1=House No 120, Post_Code=12345, Last_Name=katyal, DOB=28/12/1991, State=New York, Alias=My Home Address, City=New York, Mobile=123456789, Password=Super@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:30:13 IST" name="tearDown" finished-at="2021-04-08T23:30:15 IST" duration-ms="1184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAccount status=SUCCESS method=CreateAccount.addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:30:15 IST" name="initializeApplication" finished-at="2021-04-08T23:30:24 IST" duration-ms="9369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:30:24 IST" name="addAccount" data-provider="Data" finished-at="2021-04-08T23:30:38 IST" duration-ms="14067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{First_Name=Puneet, Address_Line1=House No 120, Post_Code=12345, Last_Name=Singh, DOB=28/12/1991, State=New York, Alias=My Home Address, City=New York, Mobile=123456789, Password=Super@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@25b485ba]" started-at="2021-04-08T23:30:38 IST" name="tearDown" finished-at="2021-04-08T23:30:39 IST" duration-ms="1078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAccount status=SUCCESS method=CreateAccount.addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@25b485ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CreateAccount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

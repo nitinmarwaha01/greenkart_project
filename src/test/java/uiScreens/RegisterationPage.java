@@ -3,8 +3,6 @@ package uiScreens;
 import java.io.IOException;
 import java.util.Map;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -20,8 +18,6 @@ public class RegisterationPage extends BaseClass {
 	public RegisterationPage(WebDriver driver){
 		this.driver = driver;
 	}
-	
-	private Logger log = LogManager.getLogger(RegisterationPage.class.getName());
 
 	public boolean createAccount(Map<String, String> oMap) throws IOException {
 		

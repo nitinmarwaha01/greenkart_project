@@ -1,0 +1,11 @@
+pageObjects\LoginPage.class
+utilities\ConfigDataProvider.class
+pageObjects\AccountRegisterationPage.class
+pageObjects\HomePage.class
+utilities\CommonFunctions.class
+utilities\Reporting.class
+utilities\ExcelDataProvider.class
+utilities\BrowserFactory.class
+utilities\IWaitTimeConstants.class
+utilities\SynchronizationUtil.class
+utilities\BaseClass.class

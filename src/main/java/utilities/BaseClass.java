@@ -2,6 +2,8 @@ package utilities;
 
 import java.io.File;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -26,9 +28,11 @@ public class BaseClass {
 	public static ExtentTest extentTest;
 	public WebDriver driver;
 	public static WebDriverWait wait;
+	public static Logger log;
 	
 	@BeforeSuite
 	public void setUpSuite() {
+		log = LogManager.getLogger(BaseClass.class);
 		config = new ConfigDataProvider();
 		excel = new ExcelDataProvider();
 		browserFactory = new BrowserFactory();
