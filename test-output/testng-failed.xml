@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.CreateAccount">
+      <class name="testCases.GreenKart">
         <methods>
           <include name="initializeApplication"/>
           <include name="setUpSuite"/>
-          <include name="addAccount" invocation-numbers="0"/>
+          <include name="addToCartFunctionality" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.CreateAccount -->
+      </class> <!-- testCases.GreenKart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

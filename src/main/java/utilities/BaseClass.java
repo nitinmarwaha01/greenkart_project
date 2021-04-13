@@ -40,9 +40,9 @@ public class BaseClass {
 		ExtentHtmlReporter htmlReport = new ExtentHtmlReporter(new File(System.getProperty("user.dir") 
 				+ "/reports/MyAutomationReport_" + CommonFunctions.getCurrentDateTime() + ".html"));
 		htmlReport.config().setDocumentTitle("Test Automation Report");
-		htmlReport.config().setReportName("Account creation");
+		htmlReport.config().setReportName("Automation Practise");
 		extentReport.attachReporter(htmlReport);
-		extentTest = extentReport.createTest("Account creation");
+		extentTest = extentReport.createTest("GreenKart");
 	}
 	
 	@BeforeMethod

@@ -3,34 +3,34 @@ package testCases;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.concurrent.TimeoutException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.MediaEntityBuilder;
-
-import uiScreens.RegisterationPage;
+import uiScreens.GreenKartPage;
 import utilities.BaseClass;
-import utilities.CommonFunctions;
 
-public class CreateAccount extends BaseClass {
+public class GreenKart extends BaseClass{
+
+	String sheetName = "Vegetables";  
 	
-	String sheetName = "Account_Details";
-	
-	@Test(dataProvider = "Data")
-	public void addAccount(Map<String, String> oMap) throws IOException {
-	
-	RegisterationPage registerationPage = new RegisterationPage(driver);
-	if(registerationPage.createAccount(oMap)) {
-		extentTest.pass("Test case passed.", MediaEntityBuilder.createScreenCaptureFromPath(CommonFunctions.ScreenCapture(driver)).build());
-	}else {
-		extentTest.fail("Test case failed.", MediaEntityBuilder.createScreenCaptureFromPath(CommonFunctions.ScreenCapture(driver)).build());
+	@Test(dataProvider = "testdata")
+	public void addToCartFunctionality(Map<String, String> oMap) throws TimeoutException {
+		GreenKartPage greenKart = new GreenKartPage(driver);
+		log.info("**********************Test case 'Add to cart functionality' execution started**********************");
+		try {
+			greenKart.addVegetablesToKart(oMap);
+		} catch (TimeoutException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		log.info("**********************Test case 'Add to cart functionality' execution ended**********************");
 	}
-		
-}
 	
-	@DataProvider(name="Data")
-	public Object[][] getData() {
+	@DataProvider(name="testdata")
+	public Object[][] getData(){
 		Object[][] data = null;
 		int selectedTestCases=0;
 		int testCaseCounter=0;
@@ -51,7 +51,6 @@ public class CreateAccount extends BaseClass {
 				testCaseCounter++;
 			}
 		}
-		
 		return data;
 	}
 }

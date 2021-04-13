@@ -1,0 +1,90 @@
+01:13:17.633 [main] INFO  utilities.BaseClass - **********************Test case 'Add to cart functionality' execution started**********************
+01:13:18.547 [main] INFO  utilities.BaseClass - Entering quantity to 2
+01:13:19.153 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Brocolli
+01:13:19.969 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:23.293 [main] INFO  utilities.BaseClass - Entering quantity to 5
+01:13:23.481 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Cucumber
+01:13:24.074 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:27.525 [main] INFO  utilities.BaseClass - Entering quantity to 10
+01:13:27.741 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Potato
+01:13:28.399 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:31.323 [main] INFO  utilities.BaseClass - Entering quantity to 10
+01:13:31.518 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Banana
+01:13:32.214 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:35.439 [main] INFO  utilities.BaseClass - Entering quantity to 2
+01:13:35.594 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Almonds
+01:13:36.200 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:36.697 [main] INFO  utilities.BaseClass - Clicking on Cart icon.
+01:13:36.987 [main] INFO  utilities.BaseClass - Clicking on 'PROCEED TO CHECKOUT' button.
+01:13:37.666 [main] INFO  utilities.BaseClass - User navigated to CHECKOUT page successfully.
+01:13:38.170 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:38.281 [main] INFO  utilities.BaseClass - Clicking on Place order button.
+01:13:38.354 [main] INFO  utilities.BaseClass - User navigated to Terms and Conditions page successfully.
+01:13:38.784 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:39.128 [main] INFO  utilities.BaseClass - India is selected in Country dropdown.
+01:13:39.245 [main] INFO  utilities.BaseClass - Checked Terms and Conditions checkbox.
+01:13:39.688 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:39.805 [main] INFO  utilities.BaseClass - Clicking on Proceed button.
+01:13:45.073 [main] INFO  utilities.BaseClass - Add vegetables to Cart is verified successfully.
+01:13:45.781 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:45.782 [main] INFO  utilities.BaseClass - **********************Test case 'Add to cart functionality' execution ended**********************
+01:13:53.916 [main] INFO  utilities.BaseClass - **********************Test case 'Add to cart functionality' execution started**********************
+01:13:54.545 [main] INFO  utilities.BaseClass - Entering quantity to 4
+01:13:54.923 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Brocolli
+01:13:55.655 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:13:58.790 [main] INFO  utilities.BaseClass - Entering quantity to 2
+01:13:58.980 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Cucumber
+01:13:59.606 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:02.611 [main] INFO  utilities.BaseClass - Entering quantity to 8
+01:14:02.807 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Potato
+01:14:03.490 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:06.390 [main] INFO  utilities.BaseClass - Entering quantity to 5
+01:14:06.585 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Banana
+01:14:07.246 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:10.625 [main] INFO  utilities.BaseClass - Entering quantity to 3
+01:14:10.790 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Almonds
+01:14:11.365 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:11.822 [main] INFO  utilities.BaseClass - Clicking on Cart icon.
+01:14:12.047 [main] INFO  utilities.BaseClass - Clicking on 'PROCEED TO CHECKOUT' button.
+01:14:12.707 [main] INFO  utilities.BaseClass - User navigated to CHECKOUT page successfully.
+01:14:13.181 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:13.304 [main] INFO  utilities.BaseClass - Clicking on Place order button.
+01:14:13.376 [main] INFO  utilities.BaseClass - User navigated to Terms and Conditions page successfully.
+01:14:13.795 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:13.997 [main] INFO  utilities.BaseClass - India is selected in Country dropdown.
+01:14:14.125 [main] INFO  utilities.BaseClass - Checked Terms and Conditions checkbox.
+01:14:14.557 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:14.670 [main] INFO  utilities.BaseClass - Clicking on Proceed button.
+01:14:19.920 [main] INFO  utilities.BaseClass - Add vegetables to Cart is verified successfully.
+01:14:20.485 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:20.487 [main] INFO  utilities.BaseClass - **********************Test case 'Add to cart functionality' execution ended**********************
+01:14:32.652 [main] INFO  utilities.BaseClass - **********************Test case 'Add to cart functionality' execution started**********************
+01:14:33.164 [main] INFO  utilities.BaseClass - Entering quantity to 12
+01:14:33.397 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Brocolli
+01:14:34.023 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:37.060 [main] INFO  utilities.BaseClass - Entering quantity to 15
+01:14:37.246 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Cucumber
+01:14:37.949 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:41.073 [main] INFO  utilities.BaseClass - Entering quantity to 11
+01:14:41.260 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Potato
+01:14:41.921 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:44.769 [main] INFO  utilities.BaseClass - Entering quantity to 11
+01:14:44.970 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Banana
+01:14:45.655 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:48.813 [main] INFO  utilities.BaseClass - Entering quantity to 12
+01:14:48.976 [main] INFO  utilities.BaseClass - Clicking on 'ADD TO CART' button for vegetable Almonds
+01:14:49.571 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:50.087 [main] INFO  utilities.BaseClass - Clicking on Cart icon.
+01:14:50.317 [main] INFO  utilities.BaseClass - Clicking on 'PROCEED TO CHECKOUT' button.
+01:14:50.997 [main] INFO  utilities.BaseClass - User navigated to CHECKOUT page successfully.
+01:14:51.526 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:51.654 [main] INFO  utilities.BaseClass - Clicking on Place order button.
+01:14:51.727 [main] INFO  utilities.BaseClass - User navigated to Terms and Conditions page successfully.
+01:14:52.172 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:52.353 [main] INFO  utilities.BaseClass - India is selected in Country dropdown.
+01:14:52.467 [main] INFO  utilities.BaseClass - Checked Terms and Conditions checkbox.
+01:14:52.892 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:52.982 [main] INFO  utilities.BaseClass - Clicking on Proceed button.
+01:14:58.209 [main] INFO  utilities.BaseClass - Add vegetables to Cart is verified successfully.
+01:14:58.774 [main] INFO  utilities.BaseClass - Screenshot taken successfully.
+01:14:58.775 [main] INFO  utilities.BaseClass - **********************Test case 'Add to cart functionality' execution ended**********************

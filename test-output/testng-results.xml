@@ -1,43 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44735" started-at="2021-04-09T01:17:08 IST" finished-at="2021-04-09T01:17:52 IST">
+  <suite name="Default suite" duration-ms="110601" started-at="2021-04-14T01:13:09 IST" finished-at="2021-04-14T01:14:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44735" started-at="2021-04-09T01:17:08 IST" finished-at="2021-04-09T01:17:52 IST">
-      <class name="testCases.CreateAccount">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.CreateAccount@11438d26]" name="setUpSuite" is-config="true" duration-ms="2729" started-at="2021-04-09T01:17:05 IST" finished-at="2021-04-09T01:17:08 IST">
+    <test name="Default test" duration-ms="110601" started-at="2021-04-14T01:13:09 IST" finished-at="2021-04-14T01:14:59 IST">
+      <class name="testCases.GreenKart">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:testCases.GreenKart@11438d26]" name="setUpSuite" is-config="true" duration-ms="2474" started-at="2021-04-14T01:13:06 IST" finished-at="2021-04-14T01:13:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.CreateAccount@11438d26]" name="initializeApplication" is-config="true" duration-ms="24727" started-at="2021-04-09T01:17:08 IST" finished-at="2021-04-09T01:17:32 IST">
+        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.GreenKart@11438d26]" name="initializeApplication" is-config="true" duration-ms="8244" started-at="2021-04-14T01:13:09 IST" finished-at="2021-04-14T01:13:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeApplication -->
-        <test-method status="PASS" signature="addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@11438d26]" name="addAccount" duration-ms="17417" started-at="2021-04-09T01:17:32 IST" data-provider="Data" finished-at="2021-04-09T01:17:50 IST">
+        <test-method status="PASS" signature="addToCartFunctionality(java.util.Map)[pri:0, instance:testCases.GreenKart@11438d26]" name="addToCartFunctionality" duration-ms="28235" started-at="2021-04-14T01:13:17 IST" data-provider="testdata" finished-at="2021-04-14T01:13:45 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{First_Name=Puneet, Address_Line1=House No 120, Post_Code=12345, Last_Name=Singh, DOB=28/12/1991, State=New York, Alias=My Home Address, City=New York, Mobile=123456789, Password=Super@123}]]>
+                <![CDATA[{Vegetables=Brocolli$2,Cucumber$5,Potato$10,Banana$10,Almonds$2}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addAccount -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.CreateAccount@11438d26]" name="tearDown" is-config="true" duration-ms="2480" started-at="2021-04-09T01:17:50 IST" finished-at="2021-04-09T01:17:52 IST">
+        </test-method> <!-- addToCartFunctionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.GreenKart@11438d26]" name="tearDown" is-config="true" duration-ms="2189" started-at="2021-04-14T01:13:45 IST" finished-at="2021-04-14T01:13:47 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addAccount status=SUCCESS method=CreateAccount.addAccount(java.util.Map)[pri:0, instance:testCases.CreateAccount@11438d26] output={null}]]]>
+                <![CDATA[[TestResult name=addToCartFunctionality status=SUCCESS method=GreenKart.addToCartFunctionality(java.util.Map)[pri:0, instance:testCases.GreenKart@11438d26] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.CreateAccount -->
+        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.GreenKart@11438d26]" name="initializeApplication" is-config="true" duration-ms="5935" started-at="2021-04-14T01:13:47 IST" finished-at="2021-04-14T01:13:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method status="PASS" signature="addToCartFunctionality(java.util.Map)[pri:0, instance:testCases.GreenKart@11438d26]" name="addToCartFunctionality" duration-ms="26574" started-at="2021-04-14T01:13:53 IST" data-provider="testdata" finished-at="2021-04-14T01:14:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vegetables=Brocolli$4,Cucumber$2,Potato$8,Banana$5,Almonds$3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFunctionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.GreenKart@11438d26]" name="tearDown" is-config="true" duration-ms="1065" started-at="2021-04-14T01:14:20 IST" finished-at="2021-04-14T01:14:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFunctionality status=SUCCESS method=GreenKart.addToCartFunctionality(java.util.Map)[pri:0, instance:testCases.GreenKart@11438d26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeApplication()[pri:0, instance:testCases.GreenKart@11438d26]" name="initializeApplication" is-config="true" duration-ms="11096" started-at="2021-04-14T01:14:21 IST" finished-at="2021-04-14T01:14:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method status="PASS" signature="addToCartFunctionality(java.util.Map)[pri:0, instance:testCases.GreenKart@11438d26]" name="addToCartFunctionality" duration-ms="26125" started-at="2021-04-14T01:14:32 IST" data-provider="testdata" finished-at="2021-04-14T01:14:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vegetables=Brocolli$12,Cucumber$15,Potato$11,Banana$11,Almonds$12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFunctionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.GreenKart@11438d26]" name="tearDown" is-config="true" duration-ms="1055" started-at="2021-04-14T01:14:58 IST" finished-at="2021-04-14T01:14:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCartFunctionality status=SUCCESS method=GreenKart.addToCartFunctionality(java.util.Map)[pri:0, instance:testCases.GreenKart@11438d26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.GreenKart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
